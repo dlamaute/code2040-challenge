@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:text="Choose a Stage to Test"
+        android:textColor="@color/eblue"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/s1button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Stage 1"></Button>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textColor="@color/eblue"
+            android:layout_alignBaseline="@id/s1button"
+            android:layout_toRightOf="@id/s1button"
+            android:textSize="20sp"
+            android:text="String Reversal"/>
+
+        <Button
+            android:id="@+id/s2button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/s1button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Stage 2"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textColor="@color/eblue"
+            android:layout_alignBaseline="@id/s2button"
+            android:layout_toRightOf="@id/s2button"
+            android:textSize="20sp"
+            android:text="Needle in Haystack"/>
+
+        <Button
+            android:id="@+id/s3button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/s2button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Stage 3"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textColor="@color/eblue"
+            android:layout_alignBaseline="@id/s3button"
+            android:layout_toRightOf="@id/s3button"
+            android:textSize="20sp"
+            android:text="Removing the Prefix"/>
+
+        <Button
+            android:id="@+id/s4button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/s3button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Stage 4"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textColor="@color/eblue"
+            android:layout_alignBaseline="@id/s4button"
+            android:layout_toRightOf="@id/s4button"
+            android:textSize="20sp"
+            android:text="Up-date-ing"/>
+
+        <Button
+            android:id="@+id/resbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/s4button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Results"></Button>
+
+        <TextView
+            android:id="@+id/resText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textColor="@color/eblue"
+            android:layout_alignBaseline="@id/s1button"
+            android:layout_toRightOf="@id/s1button"
+            android:textSize="20sp"
+            android:text=""/>
+
+    </RelativeLayout>
+
+</LinearLayout>
